@@ -1,0 +1,20 @@
+{
+    "app_name": "ConversaCutAI",
+    "version": "1.0",
+
+    "default_sensitivity": 0.25,
+
+    "input_folder": "input",
+    "output_folder": "output",
+
+    "vad": {
+        "min_speech_duration_ms": 300,
+        "min_silence_duration_ms": 700,
+        "speech_pad_ms": 800
+    },
+
+    "audio": {
+        "start_padding_ms": 300,
+        "end_padding_ms": 500
+    }
+}
